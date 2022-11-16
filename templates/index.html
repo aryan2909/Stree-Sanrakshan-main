@@ -11,12 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="static/styles/style.css">
+  <link rel="stylesheet" href="/static/css/style.css">
 
   <title>Stree Sanrakshan</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="static/styles/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 
   <!--
 
@@ -29,16 +29,16 @@ https://templatemo.com/tm-570-chain-app-dev
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/styles/templatemo-chain-app-dev.css">
-  <link rel="stylesheet" href="static/styles/animated.css">
-  <link rel="stylesheet" href="static/styles/owl.css">
+  <link rel="stylesheet" href="/static/css/templatemo-chain-app-dev.css">
+  <link rel="stylesheet" href="/static/css/animated.css">
+  <link rel="stylesheet" href="/static/css/owl.css">
 
 </head>
 
 <body>
 
   <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
+  <!-- <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
       <div class="dots">
@@ -47,7 +47,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <span></span>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
@@ -58,14 +58,14 @@ https://templatemo.com/tm-570-chain-app-dev
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
 
-            <a href="index.html" class="logo">
-              <img style="height: 80px;" class="stree" src="static/images/loge_stree.png" alt="Stree Sanrakshan">
+            <a href="/templates/index.html" class="logo">
+              <img style="height: 100px; width: 100px;" class="stree" src="/static/images/loge_stree.png" alt="Stree Sanrakshan">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><form action="feedback.html">Feedback</form></li>
+              <li class="scroll-to-section"><a href="feed/">Feedback</a></li>
               <li class="scroll-to-section"><a href="#about">About</a></li>
               <li>
                 <div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign
@@ -100,7 +100,7 @@ https://templatemo.com/tm-570-chain-app-dev
 
           </a>
 
-          <a class="social_box google" id="login">
+          <a class="social_box google">
             <span class="icon"><i class="fab fa-google-plus"></i></span>
             <span class="icon_title">Connect with Google</span>
           </a>
@@ -186,8 +186,8 @@ https://templatemo.com/tm-570-chain-app-dev
                     </p>
                   </div>
                   <div class="col-lg-12">
-                    <form class="white-button first-button scroll-to-section" action="/start.html">
-                      <button>Start Now</button></form>
+                    <div class="white-button first-button scroll-to-section">
+                      <a href="#contact">Start Now</a>
                     </div>
                   </div>
                 </div>
@@ -195,7 +195,7 @@ https://templatemo.com/tm-570-chain-app-dev
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="static/images/self-defense-practice.webp" alt="">
+                <img src="/static/images/self-defense-practice.webp" alt="">
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>Learning in <em>Levels</em> </h4>
-            <img src="static/images/heading-line-dec.png" alt="">
+            <img src="/static/images/heading-line-dec.png" alt="">
             <p>We have designed your self defence learning journey in more easy and interesting way by dividing it into
               4 different levels.</p>
           </div>
@@ -225,9 +225,9 @@ https://templatemo.com/tm-570-chain-app-dev
             <h4>Level1-Warmup</h4>
             <p>In Level 1 you will do basic warm-up before start learning self defence, that will boost your stamina.
             </p>
-            <button class="text-button" >
-              <a href="/start.html">Start Now <i class="fa fa-arrow-right"></i></a>
-            </button>
+            <div class="text-button">
+              <a href="start/">Start Now <i class="fa fa-arrow-right"></i></a>
+            </div>
           </div>
         </div>
         <div class="col-lg-3">
@@ -236,7 +236,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <h4>Level2-Basic defence</h4>
             <p>In Level 2 you will be learning basic self defence poses will low difficulty level.</p>
             <div class="text-button">
-              <a href="/start.html">Start Now <i class="fa fa-arrow-right"></i></a>
+              <a href="start1/">Start Now <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <h4>Level3-Medium difficulty</h4>
             <p>In Level 3 the difficulty level will increase and you can access this level after passing level 1..</p>
             <div class="text-button">
-              <a href="/start.html">Start Now <i class="fa fa-arrow-right"></i></a>
+              <a href="start2/">Start Now <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -256,7 +256,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <h4>Level4-Final Test</h4>
             <p>In Level 4 your learning will be tested. This will be the last level in your self defence learing.</p>
             <div class="text-button">
-              <a href="/start.html">Start Now <i class="fa fa-arrow-right"></i></a>
+              <a href="start3/">Start Now <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -270,7 +270,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-6 align-self-center">
           <div class="section-heading">
             <h4>About <em>What We Do</em> &amp; Who We Are</h4>
-            <img src="static/images/heading-line-dec.png" alt="">
+            <img src="/static/images/heading-line-dec.png" alt="">
             <p>StreeSanrakshan is a platform that teaches women self defence using AI/ML.</p>
           </div>
           <div class="row">
@@ -309,7 +309,7 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>
         <div class="col-lg-6">
           <div class="right-image">
-            <img src="static/images/undraw_team_work_k80m-removebg.png" alt="">
+            <img src="/static/images/undraw_team_work_k80m-removebg.png" alt="">
           </div>
         </div>
       </div>
@@ -676,7 +676,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><form action="/feedback">Feedback</form></li>
+              <li><a href="#">Feedback</a></li>
             </ul>
             <ul>
               <li><a href="#">FAQ</a></li>
@@ -703,7 +703,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-3">
           <div class="footer-widget">
             <div class="logo">
-              <img src="static/images/loge_stree.png" alt="">
+              <img src="/static/images/loge_stree.png" alt="">
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore.</p>
@@ -720,13 +720,13 @@ https://templatemo.com/tm-570-chain-app-dev
 
 
   <!-- Scripts -->
-  <script src="static/jquery/jquery.min.js"></script>
-  <script src="static/js/bootstrap.bundle.min.js"></script>
-  <script src="static/js/owl-carousel.js"></script>
-  <script src="static/js/animation.js"></script>
-  <script src="static/js/imagesloaded.js"></script>
-  <script src="static/js/popup.js"></script>
-  <script src="static/js/custom.js"></script>
+  <script src="/static/jquery/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/owl-carousel.js"></script>
+  <script src="/static/js/animation.js"></script>
+  <script src="/static/js/imagesloaded.js"></script>
+  <script src="/static/js/popup.js"></script>
+  <script src="/static/js/custom.js"></script>
 
   
 
@@ -740,13 +740,13 @@ https://templatemo.com/tm-570-chain-app-dev
   
     // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyAKNtl1Dc1cidU10z3AFjdnV5HAgzoiSN0",
-      authDomain: "streesanrakshanweb-ade93.firebaseapp.com",
-      projectId: "streesanrakshanweb-ade93",
-      storageBucket: "streesanrakshanweb-ade93.appspot.com",
-      messagingSenderId: "786941930649",
-      appId: "1:786941930649:web:98ffe6f37535d5509c1c08",
-      measurementId: "G-0GGD69JCBG"
+      apiKey: "AIzaSyCYIX-l25NLsdCDs3vTa1OQ4CXMyTUBfZ4",
+      authDomain: "civic-network-368518.firebaseapp.com",
+      projectId: "civic-network-368518",
+      storageBucket: "civic-network-368518.appspot.com",
+      messagingSenderId: "885177828004",
+      appId: "1:885177828004:web:2d0b8d9ae2ac6b1e37dc31",
+      measurementId: "G-GWBDXB89BN"
     };
   
     // Initialize Firebase
